@@ -27,3 +27,8 @@ Open CV - (https://pypi.org/project/opencv-python/)
 Tkinter - (https://pypi.org/project/tkinter-page/)
 
 Pathlib - (https://pypi.org/project/pathlib/)
+
+
+
+<hr> 
+<div align = 'center'> <h2> &copy; Eliezer Carvalho | All Rights Reserved | November 2025 </h2> </div>
