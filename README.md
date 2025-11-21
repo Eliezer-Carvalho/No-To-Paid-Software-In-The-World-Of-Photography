@@ -31,4 +31,4 @@ Pathlib - (https://pypi.org/project/pathlib/)
 
 
 <hr> 
-<div align = 'center'> <h2> &copy; Eliezer Carvalho | All Rights Reserved | November 2025 </h2> </div>
+<div align = 'center'> <h2> &copy; Eliezer Carvalho | All Rights Reserved | August 2025 </h2> </div>
