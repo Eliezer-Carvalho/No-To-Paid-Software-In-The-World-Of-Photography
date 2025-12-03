@@ -1,14 +1,10 @@
 # Bulk-Image-Editor
-This project aims to enable bulk editing of images. The program allows you to import an image from your computer, adjust parameters such as brightness and contrast, and save these settings for reuse. You can then apply the same settings to an entire folder of photos. The resulting images are saved within the original folder.
-
+The aim of this project is to create a software tool that allows large-scale image editing in a <b> free and practical way. </b>
 
 # Description
 
-While browsing the internet, I realized that there are many high-quality photo editors, but none that combine this quality with the ability to edit large quantities of images.  
-
-This project has exactly that purpose: to create a simple program, based on image manipulation libraries such as **Pillow** and **OpenCV**, that allows you to edit a sample photo by adjusting parameters such as brightness or contrast, save those settings, and then automatically apply them to dozens or hundreds of other images within a folder.  
-
-The processed photos are saved in the original folder with new names, preserving the existing files.  
+This project stands out for its simplicity and practicality, being easy to use for any type of user.
+Simply select an image from your computer's memory, apply settings such as brightness and contrast, and save the applied settings. From there, you can edit multiple images in a matter of seconds with a single click.
 
 
 # Features
