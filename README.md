@@ -1,4 +1,4 @@
-# Bulk-Image-Editor
+# No To Paid Software in The World of Photography
 The aim of this project is to create a software tool that allows large-scale image editing in a <b> free and practical way. </b>
 
 # Description

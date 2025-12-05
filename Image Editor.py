@@ -1,7 +1,12 @@
-import tkinter as tk                                                    #INTERFACE
-from tkinter import filedialog, messagebox                              #INTERFACE
-import cv2                                                              #CONTRAST AND LUMINOSITY 
-from pathlib import Path                                                #PATH FROM PC MEMORY
+import tkinter as tk 
+                                                   #INTERFACE
+from tkinter import filedialog, messagebox  
+                            #INTERFACE
+import cv2      
+
+                                                        #CONTRAST AND LUMINOSITY 
+from pathlib import Path    
+                                            #PATH FROM PC MEMORY
 from PIL import Image, ImageTk                                          #HANDLE IMAGES
 
 
@@ -83,17 +88,17 @@ def aplicar_pasta ():
 janela = tk.Tk()
 janela.title("Editor de Imagens em Massa - Eliezer Carvalho")
 janela.geometry("1200x1200")
-janela.config(bg = "#F7E773")
+janela.config(bg = "#E6E6E6")
 
-botão_carregar_imagem = tk.Button(janela, text = "CARREGAR UMA IMAGEM DE EXEMPLO", command = carregar_imagem, bg = "#F7E773", fg = "#F35D66", font = ("Arial", 9, "bold")).pack(pady = (10, 0))
+botão_carregar_imagem = tk.Button(janela, text = "CARREGAR UMA IMAGEM DE EXEMPLO", command = carregar_imagem, bg = "#FFFFFF", fg = "#F35D66", font = ("Arial", 9, "bold")).pack(pady = (10, 0))
 
 
 
-luminosidade = tk.Scale(janela, from_ = -50, to = 100, length = 500, width = 20, orient = "horizontal", bg = "#F7E773", fg = "#F35D66", label = "LUMINOSIDADE", troughcolor = "#F35D66", highlightbackground = "#F7E773", command = lambda x: ajustar_imagem())
+luminosidade = tk.Scale(janela, from_ = -50, to = 100, length = 500, width = 20, orient = "horizontal", bg = "#FFFFFF", fg = "#F35D66", label = "LUMINOSIDADE", troughcolor = "#F35D66", highlightbackground = "#FFFFFF", command = lambda x: ajustar_imagem())
 luminosidade.set(0)
 luminosidade.pack()
 
-contraste = tk.Scale(janela, from_ = 0.5, to = 2.0, resolution = 0.1, length = 500, width = 20, orient = "horizontal", bg = "#F7E773", fg = "#F35D66", label = "CONTRASTE", troughcolor = "#F35D66", highlightbackground = "#F7E773", command = lambda x: ajustar_imagem())
+contraste = tk.Scale(janela, from_ = 0.5, to = 2.0, resolution = 0.1, length = 500, width = 20, orient = "horizontal", bg = "#FFFFFF", fg = "#F35D66", label = "CONTRASTE", troughcolor = "#F35D66", highlightbackground = "#FFFFFF", command = lambda x: ajustar_imagem())
 contraste.set(1.0)
 contraste.pack()
 
@@ -101,10 +106,10 @@ label_imagem = tk.Label(janela)
 label_imagem.pack(pady = (10, 0))
 
 
-botão_guardar_definições = tk.Button (janela, text = "GUARDAR DEFINIÇÕES", bg = "#F7E773", fg = "#F35D66", font = ("Arial", 9, "bold"), command = guardar_def).pack(pady = (10, 0))
+botão_guardar_definições = tk.Button (janela, text = "GUARDAR DEFINIÇÕES", bg = "#FFFFFF", fg = "#F35D66", font = ("Arial", 9, "bold"), command = guardar_def).pack(pady = (10, 0))
 
 
-aplicar_a_uma_pasta = tk.Button (janela, text = "APLICAR DEFINIÇÕES A UMA PASTA", bg = "#F7E773", fg = "#F35D66", font = ("Arial", 9, "bold"), command = aplicar_pasta).pack(pady = (5, 0))
+aplicar_a_uma_pasta = tk.Button (janela, text = "APLICAR DEFINIÇÕES A UMA PASTA", bg = "#FFFFFF", fg = "#F35D66", font = ("Arial", 9, "bold"), command = aplicar_pasta).pack(pady = (5, 0))
 
 
 
