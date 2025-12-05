@@ -1,20 +1,41 @@
-# No To Paid Software in The World of Photography
-The aim of this project is to create a software tool that allows large-scale image editing in a <b> free and practical way. </b>
+<div align = 'center'> <h1> Software is like sex: It's better when it's free! - <b> Linus Torvalds </b> </h1> </div>
 
 # Description
 
-This project stands out for its simplicity and practicality, being easy to use for any type of user.
-Simply select an image from your computer's memory, apply settings such as brightness and contrast, and save the applied settings. From there, you can edit multiple images in a matter of seconds with a single click.
+Imagine an ecosystem capable of editing and converting images quickly and efficiently, allowing users to process multiple files in seconds. 
+<b> This is the main objective of this project. </b>
+
+The <i> Bulk Image Editor </i> and <i> Bulk Image Converter </i> applications offer a practical and affordable alternative to the paid photo editing programmes that predominate on the internet, combining simplicity, speed, and efficiency in a single integrated system.
 
 
-# Features
+# Bulk Image Converter
 
-1. Import an image as an example and edit parameters such as brightness and contrast.
-2. Save the same settings applied to the sample image.
-3. Select an entire folder from the computer's memory and apply the same settings.
-4. Create a folder inside the original folder with all the edited photos!
+This is a simple software that allows you to convert images in the most common formats: JPG, PNG, TIFF, and RAW.
+
+You can convert multiple photos from a folder at once.
+
+
+1. Select a folder from your computer;
+2. Select the desired format;
+3. Done! All photos in a folder are converted to the desired format!
+
+
+
+# Bulk Image Editor
+
+With regard to the ecosystem, this software, similar to the previous one, allows you to convert settings such as brightness and contrast for all photos in a folder.
+
+1. Select a photo from your computer;
+2. Select the brightness and contrast desired;
+4. Click the button to save the changes applied to the photo;
+5. Select the folder you want to edit the photos;
+4. Done! All photos in a folder are edited to the desired brightness and contrast!
+
+
 
 # Libraries Used
+
+Rawpy - (https://pypi.org/project/rawpy/)
 
 Pillow - (https://pypi.org/project/pillow/) 
 
