@@ -1,7 +1,8 @@
 <div align = 'center'> <h1> Software is like sex: It's better when it's free! - <b> Linus Torvalds </b> </h1> </div>
 
-
-<img width="1236" height="1776" alt="Captura de ecrã 2025-12-06 154141" src="https://github.com/user-attachments/assets/0a815e0e-a35d-4cef-a08a-4e81a1ff0d10" />
+<p align = "center">
+<img width="450" height="700" alt="Captura de ecrã 2025-12-06 154141" src="https://github.com/user-attachments/assets/0a815e0e-a35d-4cef-a08a-4e81a1ff0d10" />
+</p>
 
 # Description
 
